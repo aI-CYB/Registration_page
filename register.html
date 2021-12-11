@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Registration Form</title>
+  </head>
+  <body style="margin-left:100px;">
+    <h1>User registration form</h1>
+    <div class="Registration">
+    <form  action="/" method="post">
+      <p><label for="name">Enter your name </label> <input id="Name" type="text" name="Name"></p>
+      <p><label for="surname">Enter your surname </label> <input id="surname" type="text" name="Surname"></p>
+      <p><label for="email">Enter your email </label> <input id="email" type="text" name="Email"></p>
+      <hr>
+      <p>Gender:</p>
+      <p><label for="male"> male</label>  <input id="male" type="radio" name="gender" value="male"></p>
+      <p<label for="female"> female</label>  <input id="female" type="radio" name="female" value="female"></p>
+       <hr>
+       <p>Visited countries</p>
+       <p><input id="kz" type="checkbox" name="countries" value="Kazakhstan" style="margin-right:80px;"> <label for="kz"> Kazakhstan </label></p>
+       <p><input id="ru" type="checkbox" name="countries" value="Russia" style="margin-right:80px;"> <label for="ru"> Russia </label></p>
+       <p><input id="bl" type="checkbox" name="countries" value="Belarus" style="margin-right:80px;"> <label for="bl"> Belarus </label></p>
+       <p><input id="uk" type="checkbox" name="countries" value="Ukrain" style="margin-right:80px;"> <label for="uk"> Ukrain </label></p>
+       <p><input id="kr" type="checkbox" name="countries" value="Kyrgyztstan" style="margin-right:80px;"> <label for="kr"> Kyrgyztstan </label></p>
+       <p><input id="uz" type="checkbox" name="countries" value="Uzbekistan" style="margin-right:80px;"> <label for="uz"> Uzbekistan </label></p>
+       <hr>
+       <p><label for="birth">Birth date: </label><input id="birth" type="date" name="Birth" value=""></p>
+       <hr>
+       <p><label for="car">Choose a car</label>
+       <select name="Car" size="1">
+       <option name="Car" value="BMW">BMW</option>
+       <option name="Car" value="Mercedes">Mercedes</option>
+       <option name="Car" value="Kia">Kia</option>
+       <option name="Car" value="Toyoto">Toyoto</option>
+       <option name="Car" value="Nissan">Nissan</option>
+       </select></p>
+       <hr>
+      <p><label for="weight">Weight(kg)  </label><input type="text" name="weight"></p>
+      <p><label for="height">Height(meter) </label><input type="text" name="height"></p>
+       <hr>
+       <button type="submit">Send</button>
+    </form>
+    </div>
+  </body>
+</html>
